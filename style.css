@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+}
+.countdown {
+    font-size: 70px;
+}
+canvas {
+    background-color: #0e1856;
+    position: absolute;
+    
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+#text {
+    height: 100%;
+    width: 100%;
+    margin-top: 145px;
+    color: #ffffff;
+}
+@media screen and (max-width: 480px){
+    #text {
+        margin-top: 140px;
+    }
+}
